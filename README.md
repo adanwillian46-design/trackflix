@@ -43,7 +43,13 @@ trackflix/
 
 
 
+
 ## ⚡ Como Executar
+
+```bash
+# Clone o repositório
+git clone https://github.com/adanwillian46-design/trackflix.git
+cd trackflix
 
 # Execute (não precisa de instalação)
 python run.py
