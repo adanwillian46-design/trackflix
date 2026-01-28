@@ -29,4 +29,13 @@ Aplicação desktop em Python para gerenciamento pessoal de filmes e séries com
 - **POO** - Programação Orientada a Objetos
 - **MVC** - Arquitetura Model-View-Controller
 - **SQL** - Consultas diretas ao banco
-
+## 📁 Estrutura do Projeto
+trackflix/
+├── app/
+│ ├── models/ # 🎭 Classes Movie e Series
+│ ├── database/ # 💾 Gerenciamento SQLite
+│ ├── services/ # ⚙️ Lógica de negócio
+│ └── ui/ # 🖥️ Interface CLI
+├── tests/ # 🧪 Testes automatizados
+├── requirements.txt # 📦 Dependências
+└── README.md # 📚 Documentação
