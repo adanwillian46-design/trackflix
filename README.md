@@ -1,64 +1,32 @@
-🎬 TrackFlix - Movie & Series Tracker
-https://img.shields.io/badge/Python-3.10+-blue
-https://img.shields.io/badge/SQLite-Database-green
-https://img.shields.io/badge/Status-Production%2520Ready-brightgreen
-https://img.shields.io/badge/License-MIT-orange
+# 🎬 TrackFlix - Movie & Series Tracker
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![SQLite](https://img.shields.io/badge/SQLite-Database-green)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-orange)
 
 Aplicação desktop em Python para gerenciamento pessoal de filmes e séries com banco de dados SQLite.
 
-✨ Demonstração
-https://demo.gif Adicione um GIF mostrando o funcionamento
+## ✨ Demonstração
 
-🚀 Funcionalidades
-✅ Cadastro completo de filmes e séries
+![TrackFlix Demo](demo.gif) *Adicione um GIF mostrando o funcionamento*
 
-✅ Controle de progresso com porcentagem
+## 🚀 Funcionalidades
 
-✅ Sistema de avaliação (0-5 estrelas)
+- ✅ **Cadastro completo** de filmes e séries
+- ✅ **Controle de progresso** com porcentagem
+- ✅ **Sistema de avaliação** (0-5 estrelas)
+- ✅ **Estatísticas detalhadas** do acervo
+- ✅ **Busca inteligente** por título
+- ✅ **Interface CLI** intuitiva e colorida
+- ✅ **Persistência** com SQLite
+- ✅ **Validações** robustas de dados
 
-✅ Estatísticas detalhadas do acervo
+## 🛠 Tecnologias
 
-✅ Busca inteligente por título
-
-✅ Interface CLI intuitiva e colorida
-
-✅ Persistência com SQLite
-
-✅ Validações robustas de dados
-
-🛠 Tecnologias
-Python 3.10+ - Linguagem principal
-
-SQLite - Banco de dados embutido
-
-POO - Programação Orientada a Objetos
-
-MVC - Arquitetura Model-View-Controller
-
-SQL - Consultas diretas ao banco
-
-📁 Estrutura do Projeto
-text
-trackflix/
-├── app/
-│   ├── models/          # 🎭 Classes Movie e Series
-│   ├── database/        # 💾 Gerenciamento SQLite
-│   ├── services/        # ⚙️ Lógica de negócio
-│   └── ui/             # 🖥️ Interface CLI
-├── tests/              # 🧪 Testes automatizados
-├── requirements.txt    # 📦 Dependências
-└── README.md          # 📚 Documentação
-⚡ Como Executar
-bash
-# Clone o repositório
-git clone https://github.com/adanwillian46-design/trackflix.git
-cd trackflix
-
-# Execute (não precisa de instalação)
-python run.py
-
-# Ou
-python -m app.main
-👨‍💻 Autor
-Adan William - adanwillian46-design
+- **Python 3.10+** - Linguagem principal
+- **SQLite** - Banco de dados embutido
+- **POO** - Programação Orientada a Objetos
+- **MVC** - Arquitetura Model-View-Controller
+- **SQL** - Consultas diretas ao banco
 
