@@ -29,8 +29,8 @@ Aplicação desktop em Python para gerenciamento pessoal de filmes e séries com
 - **POO** - Programação Orientada a Objetos
 - **MVC** - Arquitetura Model-View-Controller
 - **SQL** - Consultas diretas ao banco
+- 
 ## 📁 Estrutura do Projeto
-```text
 trackflix/
 ├── app/
 │   ├── models/        # 🎬 Classes Movie e Series
@@ -42,16 +42,13 @@ trackflix/
 └── README.md          # 📘 Documentação
 
 
-## ⚡ Como Executar
-
-```bash
+##⚡ Como Executar
 # Clone o repositório
-git clone https://github.com/seuusuario/trackflix.git
+git clone https://github.com/adanwillian46-design/trackflix.git
 cd trackflix
 
-# Execute (não precisa de instalação)
+# Execute a aplicação
 python run.py
 
-# Ou
+# Ou (forma recomendada)
 python -m app.main
-##
