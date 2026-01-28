@@ -1,23 +1,33 @@
 # 🎬 TrackFlix - Movie & Series Tracker
 
-![Python Version](https://img.shields.io/badge/python-3.10+-blue)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![SQLite](https://img.shields.io/badge/SQLite-Database-green)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-orange)
 
-Aplicação desktop em Python para gerenciamento pessoal de filmes e séries.
+Aplicação desktop em Python para gerenciamento pessoal de filmes e séries com banco de dados SQLite.
 
-## ✨ Funcionalidades
+## ✨ Demonstração
 
-- ✅ Cadastro de filmes e séries
-- ✅ Controle de progresso de séries
-- ✅ Sistema de avaliação e comentários
-- ✅ Estatísticas detalhadas
-- ✅ Interface CLI intuitiva
-- ✅ Persistência com SQLite
-- ✅ Busca por título
+![TrackFlix Demo](demo.gif) *Adicione um GIF mostrando o funcionamento*
 
-## 🚀 Como Executar
+## 🚀 Funcionalidades
 
-### Método 1: Executar diretamente
-```bash
-python run.py
+- ✅ **Cadastro completo** de filmes e séries
+- ✅ **Controle de progresso** com porcentagem
+- ✅ **Sistema de avaliação** (0-5 estrelas)
+- ✅ **Estatísticas detalhadas** do acervo
+- ✅ **Busca inteligente** por título
+- ✅ **Interface CLI** intuitiva e colorida
+- ✅ **Persistência** com SQLite
+- ✅ **Validações** robustas de dados
+
+## 🛠 Tecnologias
+
+- **Python 3.10+** - Linguagem principal
+- **SQLite** - Banco de dados embutido
+- **POO** - Programação Orientada a Objetos
+- **MVC** - Arquitetura Model-View-Controller
+- **SQL** - Consultas diretas ao banco
+
+## 📁 Estrutura do Projeto
