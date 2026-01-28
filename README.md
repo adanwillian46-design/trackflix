@@ -20,4 +20,12 @@ Aplicação desktop em Python para gerenciamento pessoal de filmes e séries.
 
 ### Método 1: Executar diretamente
 ```bash
+# Clone o repositório
+git clone https://github.com/adanwillian46-design/trackflix.git
+cd trackflix
+
+# Execute (não precisa de instalação)
 python run.py
+
+# Ou
+python -m app.main
