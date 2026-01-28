@@ -1,7 +1,6 @@
 # app/main.py
 from app.database.db import Database
 from app.services.media_service import MediaService
-from app.ui.cli import CLI
 
 def main():
     """Ponto de entrada principal da aplicação."""
@@ -14,15 +13,28 @@ def main():
         # Inicializar componentes
         db = Database()
         media_service = MediaService(db)
-        cli = CLI(media_service)
         
-        print("✅ Sistema pronto!")
-        print("=" * 70 + "\n")
+        # Perguntar qual interface usar
+        print("\n" + "=" * 70)
+        print("📱 Selecione o modo de interface:")
+        print("1. 🖥️  Interface Gráfica (GUI)")
+        print("2. 💻 Interface de Linha de Comando (CLI)")
+        print("=" * 70)
         
-        input("👆 Pressione Enter para começar...")
+        choice = input("\n👉 Escolha (1 ou 2): ").strip()
         
-        # Executar interface
-        cli.run()
+        if choice == "1":
+            # Executar GUI
+            from app.ui.gui import TrackFlixGUI
+            print("\n🎨 Iniciando interface gráfica...")
+            gui = TrackFlixGUI(media_service)
+            gui.run()
+        else:
+            # Executar CLI
+            from app.ui.cli import CLI
+            print("\n💻 Iniciando interface de linha de comando...")
+            cli = CLI(media_service)
+            cli.run()
         
     except KeyboardInterrupt:
         print("\n\n👋 Programa interrompido pelo usuário")

@@ -1,0 +1,16 @@
+trackflix/
+├── app/
+│   ├── models/          # 🎭 Classes Movie e Series
+│   ├── database/        # 💾 Gerenciamento SQLite  
+│   ├── services/        # ⚙️ Lógica de negócio
+│   ├── ui/
+│   │   ├── cli.py       # Interface linha de comando
+│   │   └── gui.py       # NOVA: Interface gráfica
+│   └── main.py          # Ponto de entrada
+├── assets/              # 📷 Imagens/ícones
+│   ├── icons/
+│   └── images/
+├── themes/              # 🎨 Temas de interface
+├── tests/
+├── requirements.txt
+└── README.md

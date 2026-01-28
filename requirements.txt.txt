@@ -1,0 +1,12 @@
+# TrackFlix - Dependências
+# Python 3.10+
+
+# Interface gráfica
+# Tkinter já vem com Python
+
+# Para desenvolvimento
+# pytest>=7.0.0
+# black>=23.0.0
+
+# Para criar executável (opcional)
+# pyinstaller>=5.0.0
