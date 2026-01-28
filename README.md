@@ -42,15 +42,3 @@ trackflix/
 └── README.md # 📚 Documentação
 
 
-## ⚡ Como Executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/seuusuario/trackflix.git
-cd trackflix
-
-# Execute (não precisa de instalação)
-python run.py
-
-# Ou
-python -m app.main
