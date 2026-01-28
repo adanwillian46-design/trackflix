@@ -41,6 +41,7 @@ trackflix/
 ├── requirements.txt # 📦 Dependências
 └── README.md # 📚 Documentação
 
+
 ## ⚡ Como Executar
 
 ```bash
