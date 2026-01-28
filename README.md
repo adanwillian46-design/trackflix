@@ -41,10 +41,12 @@ trackflix/
 ├── requirements.txt   # 📦 Dependências
 └── README.md          # 📘 Documentação
 
+
 ## ⚡ Como Executar
-bash
+
+```bash
 # Clone o repositório
-git clone https://github.com/adanwillian46-design/trackflix.git
+git clone https://github.com/seuusuario/trackflix.git
 cd trackflix
 
 # Execute (não precisa de instalação)
