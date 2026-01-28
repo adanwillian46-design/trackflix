@@ -1,0 +1,10 @@
+# TrackFlix - Movie & Series Tracker
+# Python 3.10+
+
+# Dependências principais
+# Nenhuma além do Python padrão!
+
+# Para desenvolvimento
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
