@@ -45,22 +45,8 @@ trackflix/
 
 ## ⚡ Como Executar
 
-```bash
-# Clone o repositório
-git clone https://github.com/seuusuario/trackflix.git
-cd trackflix
-
 # Execute (não precisa de instalação)
 python run.py
 
 # Ou
 python -m app.main
-
-## 🎯 Exemplo de Uso
-
-# Exemplo de código
-from app.models.media import Movie
-
-# Criar um filme
-movie = Movie("Inception", 2010, ["Sci-Fi", "Thriller"], 148, "Christopher Nolan")
-print(movie)  # 🎬 Inception (2010) - 148min
