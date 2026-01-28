@@ -56,6 +56,8 @@ python run.py
 # Ou
 python -m app.main
 
+## 🎯 Exemplo de Uso
+
 # Exemplo de código
 from app.models.media import Movie
 
