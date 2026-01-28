@@ -40,3 +40,15 @@ trackflix/
 ├── tests/             # 🧪 Testes automatizados
 ├── requirements.txt   # 📦 Dependências
 └── README.md          # 📘 Documentação
+
+# Clone o repositório
+git clone https://github.com/adanwillian46-design/trackflix.git
+cd trackflix
+
+# Execute a aplicação
+# Forma simples (entrypoint)
+python run.py
+
+# Ou, forma recomendada
+python -m app.main
+
