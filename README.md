@@ -32,13 +32,28 @@ Aplicação desktop em Python para gerenciamento pessoal de filmes e séries com
 
 ## 📁 Estrutura do Projeto
 trackflix/
-├── app/
-│ ├── models/ # 🎭 Classes Movie e Series
-│ ├── database/ # 💾 Gerenciamento SQLite
-│ ├── services/ # ⚙️ Lógica de negócio
-│ └── ui/ # 🖥️ Interface CLI
-├── tests/ # 🧪 Testes automatizados
-├── requirements.txt # 📦 Dependências
-└── README.md # 📚 Documentação
+- ├── app/
+- │ ├── models/ # 🎭 Classes Movie e Series
+- │ ├── database/ # 💾 Gerenciamento SQLite
+- │ ├── services/ # ⚙️ Lógica de negócio
+- │ └── ui/ # 🖥️ Interface CLI
+- ├── tests/ # 🧪 Testes automatizados
+- ├── requirements.txt # 📦 Dependências
+- └── README.md # 📚 Documentação
+
+
+
+## ⚡ Como Executar
+
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/trackflix.git
+cd trackflix
+
+# Execute (não precisa de instalação)
+python run.py
+
+# Ou
+python -m app.main
 
 
