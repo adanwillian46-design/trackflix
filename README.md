@@ -57,5 +57,5 @@ python run.py
 # Ou
 python -m app.main
 
-## 👨‍💻 Autor
-Adan William - adanwillian46-design - [LinkedIn](https://www.linkedin.com/in/adan-william-b65b5b3a5/)
+👨‍💻 Autor
+Adan William - adanwillian46-design
